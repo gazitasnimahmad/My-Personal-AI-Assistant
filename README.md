@@ -1,4 +1,4 @@
-# My-Personal-AI-Assistant
+# My-Personal-AI-Assistant (With the help of ollama mistral LLM, within this app, we have created our own AI chat bot in askAnything section, an ai based travel planner and a RAG system based chat bot)
 
 1. Install and Run Mistral Model with Ollama
 Install Ollama
