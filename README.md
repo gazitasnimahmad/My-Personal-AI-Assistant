@@ -75,3 +75,8 @@ arduino
 Copy
 Edit
 http://localhost:8080
+
+![App Screenshot](https://github.com/gazitasnimahmad/My-Personal-AI-Assistant/blob/main/src/main/resources/APP/APP-OVERVIEW.png)
+![App Screenshot](https://github.com/gazitasnimahmad/My-Personal-AI-Assistant/blob/main/src/main/resources/APP/AI_BOT.png)
+![App Screenshot](https://github.com/gazitasnimahmad/My-Personal-AI-Assistant/blob/main/src/main/resources/APP/AI_TRAVEL_GUIDE.png)
+
