@@ -9,43 +9,24 @@ Powered by Ollama’s Mistral LLM, this application combines multiple AI-driven 
 
 📚 RAG-based Chatbot – A Retrieval-Augmented Generation system for precise, context-aware answers
 
-##🚀 1. Install and Run Mistral Model with Ollama
+## 🚀 1. Install and Run Mistral Model with Ollama
 Install Ollama
 Mac (Apple Silicon / Intel):
 
-bash
-Copy
-Edit
 brew install ollama
-Linux:
 
-bash
-Copy
-Edit
-curl -fsSL https://ollama.com/install.sh | sh
-Windows:
-Download from Ollama Download and follow the installer.
+# OR download manually from:
+https://ollama.com/download
 
-Run Ollama Service
-bash
-Copy
-Edit
-ollama serve
-Starts the local Ollama service in the background.
 
-Pull Mistral Model
-bash
-Copy
-Edit
-ollama pull mistral
-Test Mistral
-bash
-Copy
-Edit
-ollama run mistral
-Type a message and press Ctrl+C to exit.
+## Pull the Mistral Model
 
-##📦 2. Start Chroma Vector Store (via Docker)
+command - ollama pull mistral
+
+## run the model model
+command - ollama run mistral
+
+## 📦 2. Start Chroma Vector Store (via Docker)
 Make sure Docker is installed and running, then run:
 
 bash
@@ -60,7 +41,7 @@ Expose it on localhost:8000
 
 Automatically clean up when stopped
 
-##⚙️ 3. Run the Spring Boot Application
+## ⚙️ 3. Run the Spring Boot Application
 Make sure you have Java 17+ and Maven/Gradle installed.
 
 Run with Maven:
@@ -76,7 +57,7 @@ Copy
 Edit
 mvn clean package
 java -jar target/your-app-name.jar
-##🌐 4. Access the Application
+## 🌐 4. Access the Application
 Once started, open:
 
 arduino
@@ -85,7 +66,7 @@ Edit
 http://localhost:8080
 
 
-##🖼 Application Screenshots
+## 🖼 Application Screenshots
 
 
 ![App Screenshot](https://github.com/gazitasnimahmad/My-Personal-AI-Assistant/blob/main/src/main/resources/APP/APP-OVERVIEW.png)
