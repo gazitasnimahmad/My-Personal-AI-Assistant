@@ -1,16 +1,15 @@
-My Personal AI Assistant based on spring boot and ollama ai mistral model
-Powered by Ollama’s Mistral LLM, this application brings multiple AI-driven experiences into one place:
+🌟 My Personal AI Assistant
+Built with Spring Boot & Ollama Mistral LLM
 
-Ask Anything – Your very own AI chatbot for open-ended conversations
+Powered by Ollama’s Mistral LLM, this application combines multiple AI-driven experiences into one seamless platform:
 
-AI Travel Planner – Smart, personalized trip planning using AI intelligence
+💬 Ask Anything – Your personal AI chatbot for open-ended conversations
 
-RAG-based Chatbot – A Retrieval-Augmented Generation system for precise, context-aware answers
+🌍 AI Travel Planner – Smart, personalized trip planning using AI intelligence
 
+📚 RAG-based Chatbot – A Retrieval-Augmented Generation system for precise, context-aware answers
 
-
-
-1. Install and Run Mistral Model with Ollama
+🚀 1. Install and Run Mistral Model with Ollama
 Install Ollama
 Mac (Apple Silicon / Intel):
 
@@ -25,14 +24,14 @@ Copy
 Edit
 curl -fsSL https://ollama.com/install.sh | sh
 Windows:
-Download from https://ollama.com/download and follow the installer.
+Download from Ollama Download and follow the installer.
 
 Run Ollama Service
 bash
 Copy
 Edit
 ollama serve
-This starts the local Ollama service in the background.
+Starts the local Ollama service in the background.
 
 Pull Mistral Model
 bash
@@ -46,11 +45,8 @@ Edit
 ollama run mistral
 Type a message and press Ctrl+C to exit.
 
-
-
-2. Start Chroma Vector Store (via Docker)
-First, make sure Docker is installed and running.
-Then run:
+📦 2. Start Chroma Vector Store (via Docker)
+Make sure Docker is installed and running, then run:
 
 bash
 Copy
@@ -58,39 +54,38 @@ Edit
 docker run -it --rm --name chroma -p 8000:8000 ghcr.io/chroma-core/chroma:0.4.15
 This will:
 
-Pull Chroma version 0.4.15 from GitHub Container Registry
+Pull Chroma v0.4.15 from GitHub Container Registry
 
 Expose it on localhost:8000
 
 Automatically clean up when stopped
 
+⚙️ 3. Run the Spring Boot Application
+Make sure you have Java 17+ and Maven/Gradle installed.
 
-
-3. Run the Spring Boot Application
-Ensure you have Java 17+ and Maven/Gradle installed.
-
-Build and Run with Maven:
+Run with Maven:
 
 bash
 Copy
 Edit
 mvn spring-boot:run
-Or Run Jar File:
+Or Build and Run Jar:
 
 bash
 Copy
 Edit
 mvn clean package
 java -jar target/your-app-name.jar
-
-
-4. Access the Application
-Once started, open your browser and go to:
+🌐 4. Access the Application
+Once started, open:
 
 arduino
 Copy
 Edit
 http://localhost:8080
+
+
+🖼 Application Screenshots
 
 
 ![App Screenshot](https://github.com/gazitasnimahmad/My-Personal-AI-Assistant/blob/main/src/main/resources/APP/APP-OVERVIEW.png)
