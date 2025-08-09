@@ -8,6 +8,8 @@ AI Travel Planner – Smart, personalized trip planning using AI intelligence
 RAG-based Chatbot – A Retrieval-Augmented Generation system for precise, context-aware answers
 
 
+
+
 1. Install and Run Mistral Model with Ollama
 Install Ollama
 Mac (Apple Silicon / Intel):
@@ -44,6 +46,8 @@ Edit
 ollama run mistral
 Type a message and press Ctrl+C to exit.
 
+
+
 2. Start Chroma Vector Store (via Docker)
 First, make sure Docker is installed and running.
 Then run:
@@ -59,6 +63,8 @@ Pull Chroma version 0.4.15 from GitHub Container Registry
 Expose it on localhost:8000
 
 Automatically clean up when stopped
+
+
 
 3. Run the Spring Boot Application
 Ensure you have Java 17+ and Maven/Gradle installed.
@@ -76,6 +82,8 @@ Copy
 Edit
 mvn clean package
 java -jar target/your-app-name.jar
+
+
 4. Access the Application
 Once started, open your browser and go to:
 
@@ -84,7 +92,10 @@ Copy
 Edit
 http://localhost:8080
 
+
 ![App Screenshot](https://github.com/gazitasnimahmad/My-Personal-AI-Assistant/blob/main/src/main/resources/APP/APP-OVERVIEW.png)
+
 ![App Screenshot](https://github.com/gazitasnimahmad/My-Personal-AI-Assistant/blob/main/src/main/resources/APP/AI_BOT.png)
+
 ![App Screenshot](https://github.com/gazitasnimahmad/My-Personal-AI-Assistant/blob/main/src/main/resources/APP/AI_TRAVEL_GUIDE.png)
 
