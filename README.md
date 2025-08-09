@@ -1,4 +1,4 @@
-My Personal AI Assistant
+My Personal AI Assistant based on spring boot and ollama ai mistral model
 Powered by Ollama’s Mistral LLM, this application brings multiple AI-driven experiences into one place:
 
 Ask Anything – Your very own AI chatbot for open-ended conversations
