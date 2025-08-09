@@ -1,4 +1,4 @@
-🌟 My Personal AI Assistant
+# 🌟 My Personal AI Assistant
 Built with Spring Boot & Ollama Mistral LLM
 
 Powered by Ollama’s Mistral LLM, this application combines multiple AI-driven experiences into one seamless platform:
@@ -9,7 +9,7 @@ Powered by Ollama’s Mistral LLM, this application combines multiple AI-driven 
 
 📚 RAG-based Chatbot – A Retrieval-Augmented Generation system for precise, context-aware answers
 
-🚀 1. Install and Run Mistral Model with Ollama
+##🚀 1. Install and Run Mistral Model with Ollama
 Install Ollama
 Mac (Apple Silicon / Intel):
 
@@ -45,7 +45,7 @@ Edit
 ollama run mistral
 Type a message and press Ctrl+C to exit.
 
-📦 2. Start Chroma Vector Store (via Docker)
+##📦 2. Start Chroma Vector Store (via Docker)
 Make sure Docker is installed and running, then run:
 
 bash
@@ -60,7 +60,7 @@ Expose it on localhost:8000
 
 Automatically clean up when stopped
 
-⚙️ 3. Run the Spring Boot Application
+##⚙️ 3. Run the Spring Boot Application
 Make sure you have Java 17+ and Maven/Gradle installed.
 
 Run with Maven:
@@ -76,7 +76,7 @@ Copy
 Edit
 mvn clean package
 java -jar target/your-app-name.jar
-🌐 4. Access the Application
+##🌐 4. Access the Application
 Once started, open:
 
 arduino
@@ -85,7 +85,7 @@ Edit
 http://localhost:8080
 
 
-🖼 Application Screenshots
+##🖼 Application Screenshots
 
 
 ![App Screenshot](https://github.com/gazitasnimahmad/My-Personal-AI-Assistant/blob/main/src/main/resources/APP/APP-OVERVIEW.png)
